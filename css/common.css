@@ -13,13 +13,179 @@ body {
   line-height: 1.5;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
+  padding: 0;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
+/* task - 1 start */
 
+#categories {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  width: 392px;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+
+}
+
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.categories-list-item {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-size: 16px; 
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 6px 16px;
+}
+
+/* task - 1 end */
+
+/* task - 2 start */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin: 0;  
+  padding: 0;
+}
+
+.gallery li {
+  width: calc((100%- 72px) / 3 );
+}
+
+.gallery img {
+height: auto;
+}
+
+/* task - 2 end */
+
+/* task - 3 start */
+
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  cursor: pointer;
+}
+
+#name-input:hover,
+#name-input:focus {
+  border-color: #000;;
+}
+
+.name-hello-text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* task - 3 end */
+
+/* task - 4 start */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-label {
+  display: flex;
+  flex-direction: column;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  width: 400px;
+}
+
+.login-form-input{
+  margin-top: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+}
+
+.login-form-button{
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.login-form-button:hover,
+.login-form-button:focus {
+  background-color: #6c8cff;
+}
+
+/* task - 4 end */
+
+/* task - 5 start */
+
+.widget {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.widget-text {
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.change-color:hover {
+  background-color: #6c8cff;
+}
+
+/* task - 5 end */
